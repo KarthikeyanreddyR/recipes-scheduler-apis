@@ -1,6 +1,6 @@
 import { ExpressApplication } from './app'
-import { MongoConfiguration } from './mongoConfig'
-import envs from './config';
+import { MongoConfiguration } from './mongo-config'
+import envs from './envs';
 
 const port = envs.port;
 

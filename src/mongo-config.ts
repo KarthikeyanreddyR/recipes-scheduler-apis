@@ -1,4 +1,4 @@
-import envs from './config';
+import envs from './envs';
 import mongoose from 'mongoose';
 
 
