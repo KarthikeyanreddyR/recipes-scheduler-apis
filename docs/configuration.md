@@ -11,8 +11,8 @@
 - `touch index.ts`        -- entry point to our application where we define express, graphql, mongodb connection, etc.
 
 ## project dependencies
-- `npm i express express-graphql graphql mongoose body-parser`        -- Add dependencies
-- `npm i -D typescript @types/express @types/mongoose @types/node dotenv rimraf ts-node-dev tslint`       -- Add dev dependencies
+- `npm i express graphql mongoose cors apollo-server-express`        -- Add dependencies
+- `npm i -D typescript @types/express @types/mongoose @types/node @types/graphql dotenv rimraf ts-node-dev tslint`       -- Add dev dependencies
 
 ## typescript configuration
 - `tsc init`      -- Add tsconfig.json file to configure typescript. Modify outDir. Include source files. Exclude node_modules folder
